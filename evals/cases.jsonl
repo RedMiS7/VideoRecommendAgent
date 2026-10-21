@@ -1,0 +1,30 @@
+{"id":"feedback-01","type":"feedback","bvid":"BV0000000001","text":"这个太基础了。","expected":{"observations":[{"dimension":"depth","value":"beginner","direction":"avoid","scope":"video","scope_value":"BV0000000001"}]}}
+{"id":"feedback-02","type":"feedback","bvid":"BV0000000001","text":"以后不要太基础的内容。","expected":{"observations":[{"dimension":"depth","value":"beginner","direction":"avoid","scope":"global","scope_value":null}]}}
+{"id":"feedback-03","type":"feedback","bvid":"BV0000000002","text":"这个我喜欢实操部分。","expected":{"observations":[{"dimension":"style","value":"practical","direction":"prefer","scope":"video","scope_value":"BV0000000002"}]}}
+{"id":"feedback-04","type":"feedback","bvid":"BV0000000002","text":"这个视频太长。","expected":{"observations":[{"dimension":"duration","value":"long","direction":"avoid","scope":"video","scope_value":"BV0000000002"}]}}
+{"id":"feedback-05","type":"feedback","bvid":"BV0000000003","text":"这个讲解太慢。","expected":{"observations":[{"dimension":"pace","value":"slow","direction":"avoid","scope":"video","scope_value":"BV0000000003"}]}}
+{"id":"feedback-06","type":"feedback","bvid":"BV0000000003","text":"以后我喜欢理论推导。","expected":{"observations":[{"dimension":"style","value":"theoretical","direction":"prefer","scope":"global","scope_value":null}]}}
+{"id":"feedback-07","type":"feedback","bvid":"BV0000000001","text":"以后我想看进阶内容。","expected":{"observations":[{"dimension":"depth","value":"advanced","direction":"prefer","scope":"global","scope_value":null}]}}
+{"id":"feedback-08","type":"feedback","bvid":"BV0000000004","text":"这个视频看完了。","expected":{"watched":true}}
+{"id":"feedback-09","type":"feedback","bvid":"BV0000000005","text":"不再推荐这个视频。","expected":{"ban":true}}
+{"id":"feedback-10","type":"feedback","bvid":"BV0000000006","text":"感觉一般，说不上来。","expected":{"observations":[],"ambiguous":true}}
+{"id":"retrieval-01","type":"retrieval","query":"RAG检索增强生成的基础概念","gold_bvid":"BV0000000001","gold_start":0,"gold_end":60}
+{"id":"retrieval-02","type":"retrieval","query":"RAG工程项目如何做Embedding缓存与引用验证","gold_bvid":"BV0000000002","gold_start":60,"gold_end":120}
+{"id":"retrieval-03","type":"retrieval","query":"BM25词频逆文档频率和倒排索引","gold_bvid":"BV0000000003","gold_start":0,"gold_end":120}
+{"id":"retrieval-04","type":"retrieval","query":"Python列表字典和变量","gold_bvid":"BV0000000004","gold_start":0,"gold_end":60}
+{"id":"retrieval-05","type":"retrieval","query":"Python asyncio协程await API并发","gold_bvid":"BV0000000005","gold_start":0,"gold_end":60}
+{"id":"retrieval-06","type":"retrieval","query":"SQLite SQL事务BEGIN IMMEDIATE提交回滚","gold_bvid":"BV0000000006","gold_start":0,"gold_end":120}
+{"id":"retrieval-07","type":"retrieval","query":"学习RAG结构化结果校验与延迟记录","gold_bvid":"BV0000000002","gold_start":60,"gold_end":120}
+{"id":"retrieval-08","type":"retrieval","query":"Python事件循环超时信号量资源释放","gold_bvid":"BV0000000005","gold_start":60,"gold_end":120}
+{"id":"retrieval-09","type":"retrieval","query":"稠密向量检索余弦相似度排序理论","gold_bvid":"BV0000000003","gold_start":0,"gold_end":120}
+{"id":"retrieval-10","type":"retrieval","query":"SQLite写锁如何保证更新原子性","gold_bvid":"BV0000000006","gold_start":60,"gold_end":120}
+{"id":"ranking-01","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"depth","value":"beginner","direction":"avoid","scope":"global"}]},"gold_bvids":["BV0000000002","BV0000000003"]}
+{"id":"ranking-02","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"style","value":"practical","direction":"prefer","scope":"global"}]},"gold_bvids":["BV0000000002"]}
+{"id":"ranking-03","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"depth","value":"beginner","direction":"prefer","scope":"global"}]},"gold_bvids":["BV0000000001"]}
+{"id":"ranking-04","type":"ranking","profile":{"topics":["Python"],"preferences":[{"dimension":"depth","value":"beginner","direction":"avoid","scope":"global"}]},"gold_bvids":["BV0000000005"]}
+{"id":"ranking-05","type":"ranking","profile":{"topics":["Python"],"preferences":[{"dimension":"depth","value":"beginner","direction":"prefer","scope":"global"}]},"gold_bvids":["BV0000000004"]}
+{"id":"ranking-06","type":"ranking","profile":{"topics":["SQL"]},"gold_bvids":["BV0000000006"]}
+{"id":"ranking-07","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"style","value":"theoretical","direction":"avoid","scope":"global"}]},"gold_bvids":["BV0000000002"]}
+{"id":"ranking-08","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"depth","value":"advanced","direction":"prefer","scope":"global"}]},"gold_bvids":["BV0000000002","BV0000000003"]}
+{"id":"ranking-09","type":"ranking","profile":{"topics":["RAG"],"preferences":[{"dimension":"style","value":"practical","direction":"avoid","scope":"global"}]},"gold_bvids":["BV0000000001","BV0000000003"]}
+{"id":"ranking-10","type":"ranking","profile":{"topics":["Python"],"preferences":[{"dimension":"depth","value":"advanced","direction":"prefer","scope":"global"}]},"gold_bvids":["BV0000000005"]}

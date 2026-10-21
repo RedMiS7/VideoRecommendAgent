@@ -1,0 +1,5 @@
+{
+  "version": "synthetic-mvp-v1",
+  "source": "synthetic",
+  "description": "Agent-authored regression cases; gold labels need human review"
+}

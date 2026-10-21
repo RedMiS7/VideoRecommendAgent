@@ -1,0 +1,7 @@
+{
+  "currency": "CNY",
+  "models": {
+    "qwen3.8-flash": {"input_per_million": null, "output_per_million": null},
+    "qwen3.7-text-embedding-flash": {"input_per_million": null, "output_per_million": 0}
+  }
+}

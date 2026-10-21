@@ -1,0 +1,19 @@
+{
+  "label_status": "agent_authored_from_raw_subtitles_before_embedding_results; independent human review pending",
+  "tolerance_seconds": 20,
+  "videos": {
+    "BV1pSQEBpEAL": [
+      {"start": 65, "end": 71, "change": "项目技术概览转向运行实例演示"},
+      {"start": 132, "end": 138, "change": "方案生成流程转向 Python 分析环境准备"}
+    ],
+    "BV1gpc4zjEtj": [
+      {"start": 100, "end": 106, "change": "RAG 用途转向通用执行流程"},
+      {"start": 181, "end": 187, "change": "文档切分转向 Embedding"},
+      {"start": 310, "end": 321, "change": "向量空间原理转向用户问题匹配流程"},
+      {"start": 473, "end": 485, "change": "通用流程回顾转向 RAG 技术体系与落地难度"},
+      {"start": 680, "end": 689, "change": "技术类型概览转向 Graph RAG 实体关系流程"},
+      {"start": 748, "end": 758, "change": "Graph RAG 转向 Agentic RAG"},
+      {"start": 779, "end": 788, "change": "Agentic RAG 流程转向企业应用问题"}
+    ]
+  }
+}

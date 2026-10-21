@@ -1,0 +1,18 @@
+{
+  "topics": ["RAG", "AI Agent"],
+  "goal": "学习如何实现具有记忆、检索和评估能力的 AI Agent",
+  "level": "了解 Python 基础",
+  "max_duration_minutes": 30,
+  "daily_count": 5,
+  "daily_time": "08:00",
+  "preferences": [
+    {
+      "dimension": "style",
+      "value": "practical",
+      "direction": "prefer",
+      "scope": "global",
+      "scope_value": null,
+      "source": "explicit"
+    }
+  ]
+}
